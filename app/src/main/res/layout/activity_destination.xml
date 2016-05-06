@@ -9,4 +9,12 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     tools:context="com.nimbledroid.memoryleaks.DestinationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You've triggered a memory leak"
+        android:id="@+id/leak_text"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
