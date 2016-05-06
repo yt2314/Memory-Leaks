@@ -50,6 +50,6 @@ public class ApplicationTest {
 
     private void stop() {
         android.util.Log.i("NDProfiler", "test stopped at "+System.currentTimeMillis());
-        Profile.startProfile();
+        Profile.stopProfile();
     }
 }
